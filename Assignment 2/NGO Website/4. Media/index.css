@@ -1,0 +1,838 @@
+.navigation-child {
+    height: 67px;
+    width: 1500px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+  }
+  .home {
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .about-us,
+  .what-we-do {
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .about-us,
+  .contact,
+  .media1,
+  .what-we-do {
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .media1 {
+    color: var(--color-white);
+  }
+  .contact {
+    font-weight: 500;
+  }
+  .home-parent {
+    width: 457px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .navbar-button-text {
+    position: relative;
+    font-size: var(--paragraph-size);
+    font-weight: 500;
+    font-family: var(--paragraph);
+    color: var(--color-black);
+    text-align: right;
+  }
+  .nav-button,
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .nav-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xs) 11px;
+    background-color: var(--color-tan);
+    width: 115px;
+    border-radius: var(--br-9xs);
+    z-index: 1;
+  }
+  .nav-button:hover {
+    background-color: var(--color-darkolivegreen);
+  }
+  .navigation {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    padding: var(--padding-xs) var(--padding-xl) var(--padding-xs) 41px;
+    gap: var(--gap-272xl);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--paragraph-size);
+    color: var(--secondary-text);
+    font-family: var(--paragraph);
+  }
+  .bg {
+    height: 680px;
+    width: 1500px;
+    position: relative;
+    background-color: var(--color-tan);
+    display: none;
+    max-width: 100%;
+  }
+  .section-title-icon {
+    width: 190px;
+    height: 19px;
+    position: relative;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .many-desktop-publishing,
+  .our-goal-is {
+    width: 600px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .our-goal-is {
+    margin: 0;
+    font-size: inherit;
+    line-height: 120%;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .many-desktop-publishing {
+    font-size: var(--paragraph-size);
+    line-height: 160%;
+    color: var(--secondary-text);
+  }
+  .our-goal-is-to-provide-inclusi-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19px 0;
+  }
+  .primary-button-text {
+    position: relative;
+    font-size: var(--paragraph-size);
+    font-weight: 500;
+    font-family: var(--paragraph);
+    color: var(--color-black);
+    text-align: right;
+  }
+  .primary-button {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-9xl) var(--padding-base)
+      var(--padding-13xl);
+    background-color: var(--color-white);
+    border-radius: var(--br-9xs);
+    backdrop-filter: blur(80px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .primary-button:hover {
+    background-color: #e6e6e6;
+  }
+  .section-title-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 34px 0;
+    min-width: 390px;
+    max-width: 100%;
+  }
+  .bg1,
+  .unsplashnp9j7o90hfy-icon {
+    position: relative;
+    border-radius: var(--br-xl);
+  }
+  .bg1 {
+    height: 576px;
+    width: 592px;
+    background-color: var(--color-white);
+    display: none;
+    max-width: 100%;
+  }
+  .unsplashnp9j7o90hfy-icon {
+    height: 160px;
+    width: 192px;
+    object-fit: cover;
+  }
+  .autism-care-day,
+  .th-nov-2022 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+  }
+  .th-nov-2022 {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .many-desktop-publishing1 {
+    width: 296px;
+    position: relative;
+    font-size: var(--paragraph-size);
+    line-height: 160%;
+    color: var(--secondary-text);
+    display: inline-block;
+  }
+  .autism-care-day-parent,
+  .blog-post {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .autism-care-day-parent {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px 0;
+    min-width: 192px;
+  }
+  .blog-post {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-5xl);
+  }
+  .unsplashsbiak0pkuie-icon {
+    height: 160px;
+    width: 192px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .down-syndrome-outreach,
+  .th-nov-20221 {
+    align-self: stretch;
+    position: relative;
+    line-height: 150%;
+  }
+  .th-nov-20221 {
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .many-desktop-publishing2 {
+    width: 296px;
+    position: relative;
+    font-size: var(--paragraph-size);
+    line-height: 160%;
+    color: var(--secondary-text);
+    display: inline-block;
+  }
+  .down-syndrome-outreach-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px 0;
+    min-width: 192px;
+  }
+  .blog-post1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .cerebral-palsy-11-things-456px-icon {
+    height: 160px;
+    width: 192px;
+    position: relative;
+    border-radius: var(--br-xl);
+    object-fit: cover;
+  }
+  .caring-for-children {
+    width: 296px;
+    position: relative;
+    line-height: 150%;
+    display: inline-block;
+  }
+  .th-nov-20222 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 150%;
+    color: var(--color-gray-200);
+  }
+  .many-desktop-publishing3 {
+    width: 296px;
+    position: relative;
+    font-size: var(--paragraph-size);
+    line-height: 160%;
+    color: var(--secondary-text);
+    display: inline-block;
+  }
+  .caring-for-children-with-cereb-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px 0;
+    min-width: 192px;
+  }
+  .blog-post2,
+  .blogs {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+  }
+  .blog-post2 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: center;
+  }
+  .blogs {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .header-section,
+  .side-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .side-list {
+    flex: 0.8649;
+    border-radius: var(--br-xl);
+    background-color: var(--color-white);
+    justify-content: flex-start;
+    padding: var(--padding-5xl) 56px var(--padding-5xl) var(--padding-5xl);
+    min-width: 385px;
+    z-index: 1;
+    font-size: var(--font-size-xl);
+  }
+  .header-section {
+    align-self: stretch;
+    background-color: var(--color-tan);
+    justify-content: center;
+    padding: var(--padding-33xl) 110px;
+    gap: var(--gap-69xl);
+    text-align: left;
+    font-size: var(--h1-size);
+    color: var(--primary-text);
+    font-family: var(--paragraph);
+  }
+  .footer-child {
+    height: 402px;
+    width: 1500px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+  }
+  .about-us1,
+  .contact1,
+  .home1,
+  .team,
+  .what-we-do1 {
+    height: 20.9px;
+    position: relative;
+    line-height: 160%;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .about-us1,
+  .contact1,
+  .team,
+  .what-we-do1 {
+    height: 17.7px;
+    cursor: pointer;
+  }
+  .caring-for-children-frame {
+    flex-direction: column;
+    gap: 50px 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-300);
+  }
+  .autism-care-day-frame,
+  .blog-post-frame,
+  .caring-for-children-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .autism-care-day-frame {
+    flex-direction: column;
+    gap: 40px 0;
+  }
+  .blog-post-frame {
+    align-self: stretch;
+    flex-direction: row;
+  }
+  .blog,
+  .donate,
+  .events,
+  .more,
+  .projects {
+    height: 20.9px;
+    position: relative;
+    line-height: 160%;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .blog,
+  .donate,
+  .events,
+  .projects {
+    height: 17.7px;
+    cursor: pointer;
+  }
+  .volunteer-join-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-300);
+  }
+  .message-field-text {
+    align-items: flex-start;
+    gap: 40px 0;
+    margin-top: -278px;
+  }
+  .message-field-text,
+  .primary-button-instance,
+  .side-list-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .side-list-frame {
+    align-self: stretch;
+    align-items: flex-end;
+  }
+  .primary-button-instance {
+    width: 224px;
+    align-items: flex-start;
+    padding: 7px 0 0;
+    box-sizing: border-box;
+  }
+  .first-name,
+  .join-as-a {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .join-as-a {
+    margin: 0;
+    font-size: inherit;
+    line-height: 140%;
+    font-weight: 700;
+    font-family: inherit;
+    max-width: 100%;
+  }
+  .first-name {
+    width: 85.2px;
+    font-size: var(--font-size-xs);
+    line-height: 160%;
+    font-family: var(--paragraph);
+    color: var(--color-gray-400);
+    text-align: left;
+  }
+  .volunteer-form {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .first-name-parent {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 38px 0;
+  }
+  .last-name,
+  .line {
+    position: relative;
+    z-index: 1;
+  }
+  .last-name {
+    width: 82.3px;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    font-family: var(--paragraph);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    height: 19px;
+    line-height: 160%;
+    font-weight: 700;
+    color: var(--color-gray-400);
+    text-align: left;
+  }
+  .line {
+    align-self: stretch;
+    height: 1px;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+  }
+  .last-name-parent {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 38px 0;
+  }
+  .text-input-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .message {
+    width: 313.7px;
+    height: 9px;
+    position: relative;
+    font-size: var(--font-size-xs);
+    line-height: 160%;
+    display: inline-block;
+    font-family: var(--paragraph);
+    color: var(--color-gray-400);
+    text-align: left;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .message-frame {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 23px 0;
+    max-width: 100%;
+  }
+  .email-id,
+  .line-separator {
+    position: relative;
+    z-index: 1;
+  }
+  .email-id {
+    width: 109.3px;
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    font-family: var(--paragraph);
+    font-size: var(--font-size-xs);
+    background-color: transparent;
+    height: 19px;
+    line-height: 160%;
+    font-weight: 700;
+    color: var(--color-gray-400);
+    text-align: left;
+  }
+  .line-separator {
+    align-self: stretch;
+    height: 1px;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+  }
+  .message-input {
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 38px 0;
+  }
+  .last-name-line-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .type-your-messege {
+    width: 552.8px;
+    border: 0;
+    outline: 0;
+    font-family: var(--paragraph);
+    font-size: var(--paragraph-size);
+    background-color: transparent;
+    height: 12.3px;
+    position: relative;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.3);
+    text-align: left;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .social-row,
+  .text-area {
+    border-radius: var(--br-9xs);
+    border: 1px solid var(--color-white);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .text-area {
+    height: 75.1px;
+    width: 870px;
+    position: relative;
+    display: none;
+  }
+  .social-row {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px var(--padding-xl) var(--padding-33xl);
+    z-index: 2;
+  }
+  .primary-button-text1 {
+    position: relative;
+    font-size: var(--paragraph-size);
+    font-weight: 500;
+    font-family: var(--paragraph);
+    color: var(--color-black);
+    text-align: right;
+  }
+  .primary-button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-base) var(--padding-9xl) var(--padding-base)
+      var(--padding-13xl);
+    background-color: var(--color-tan);
+    border-radius: var(--br-9xs);
+    backdrop-filter: blur(80px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .primary-button1:hover {
+    background-color: var(--color-darkolivegreen);
+  }
+  .facebook-negative,
+  .linkedin-negative,
+  .twitter-negative {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 20px;
+  }
+  .social-row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    opacity: 0.8;
+    z-index: 1;
+  }
+  .twitter-icon,
+  .volunteer-btn {
+    align-self: stretch;
+    display: flex;
+  }
+  .twitter-icon {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .volunteer-btn {
+    align-items: flex-start;
+    gap: 18px 0;
+  }
+  .first-name-line-frame,
+  .footer-frame,
+  .volunteer-btn {
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .first-name-line-frame {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    gap: 22px 0;
+  }
+  .footer-frame {
+    flex: 1;
+    gap: 14px 0;
+    min-width: 565px;
+    font-size: 40px;
+    color: var(--color-tan);
+  }
+  .footer,
+  .footer-frame,
+  .media {
+    display: flex;
+    align-items: flex-start;
+  }
+  .footer {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 38px 122px 40px 123px;
+    box-sizing: border-box;
+    gap: var(--gap-142xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--paragraph-size);
+    color: var(--color-white);
+    font-family: var(--paragraph);
+  }
+  .media {
+    width: 100%;
+    position: relative;
+    background-color: var(--bg);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .section-title-parent,
+    .side-list {
+      flex: 1;
+    }
+    .header-section {
+      flex-wrap: wrap;
+      gap: var(--gap-69xl);
+      padding-left: var(--padding-36xl);
+      padding-right: var(--padding-36xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .navigation {
+      gap: var(--gap-272xl);
+    }
+    .our-goal-is {
+      font-size: 45px;
+      line-height: 54px;
+    }
+    .join-as-a {
+      font-size: 32px;
+      line-height: 45px;
+    }
+    .last-name-line-frame {
+      flex-wrap: wrap;
+    }
+    .footer-frame {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .home-parent {
+      display: none;
+    }
+    .section-title-parent {
+      gap: 34px 0;
+      min-width: 100%;
+    }
+    .unsplashnp9j7o90hfy-icon {
+      flex: 1;
+    }
+    .blog-post {
+      flex-wrap: wrap;
+    }
+    .unsplashsbiak0pkuie-icon {
+      flex: 1;
+    }
+    .blog-post1 {
+      flex-wrap: wrap;
+    }
+    .cerebral-palsy-11-things-456px-icon {
+      flex: 1;
+    }
+    .blog-post2 {
+      flex-wrap: wrap;
+    }
+    .side-list {
+      padding-top: var(--padding-xl);
+      padding-right: var(--padding-9xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .header-section {
+      gap: var(--gap-69xl);
+      padding: 34px 27px;
+      box-sizing: border-box;
+    }
+    .text-input-frame {
+      flex-wrap: wrap;
+    }
+    .footer {
+      gap: var(--gap-142xl);
+      padding-left: var(--padding-42xl);
+      padding-right: var(--padding-42xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .navigation {
+      gap: var(--gap-272xl);
+    }
+    .our-goal-is {
+      font-size: 34px;
+      line-height: 40px;
+    }
+    .autism-care-day,
+    .caring-for-children,
+    .down-syndrome-outreach {
+      font-size: var(--paragraph-size);
+      line-height: 24px;
+    }
+    .join-as-a {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .twitter-icon {
+      flex-wrap: wrap;
+    }
+    .footer {
+      gap: var(--gap-142xl);
+      padding: 25px var(--padding-xl) 26px;
+      box-sizing: border-box;
+    }
+  }
